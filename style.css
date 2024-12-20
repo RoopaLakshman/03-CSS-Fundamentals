@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2::after {
+  content: "Top";
+  font-size: 16px;
+  background-color: yellow;
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  padding: 5px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin: 0px 0px 50px 0px;
+}
+
+article {
+  margin: 30px 0px;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border: 5px solid #1098ad;
+  width: 500px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 8px;
+  margin-left: 40px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-posts {
+  list-style: none;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:nth-child(odd) {
+  /* color: red; */
+}
+
+article p:first-child {
+  /* color: red; */
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b11f1f;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #000000;
+  font-style: italic;
+}
+
+nav a:link {
+  /* background-color: #d3d3d3;
+  padding: 20px;
+  display: block; */
+  margin: 20px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+  display: inline-block;
+}
+
+.like {
+  padding: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
